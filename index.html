@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <title>@WeatherApp</title>
+</head>
+<body>
+  <div class="container">
+    <h4>@<br>WeatherApp</h4>
+    <img src="./Weather.jpg" alt="">
+    <div class="search">
+      <input type="text" placeholder="search city name" spellcheck="false">
+      <button><i class="uil uil-search"></i></button>
+    </div>
+    <div class="weather">
+      <i class="uil uil-cloud-sun" id="weather_icon"></i>
+      <h1 class="temp">21&deg;</h1>
+      <h2 class="city">Cape Town</h2>
+      <div class="info">
+        <div class="col">
+          <i class="uil uil-wind"></i>
+          <div>
+            <p class="wind">12 km/hr</p>
+            <p>Wind</p>
+          </div>
+        </div>       
+        <div class="col">
+          <i class="uil uil-water"></i>
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+           
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
